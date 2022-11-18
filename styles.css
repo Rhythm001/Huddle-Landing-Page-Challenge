@@ -1,0 +1,145 @@
+body{
+    background-image: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    background-color: hsl(257, 40%, 49%);
+    
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    margin: 50px 80px 15px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding-bottom: 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+img.tablet-pic {
+    width: 50%;
+    margin-left: 0px;
+}
+
+.written-part{
+    margin-left: 50px;
+
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(228, 45%, 44%);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 50px 12px 50px;
+    text-decoration: none;
+    border: 0px;
+}
+  
+.btn:hover {
+    background: hsl(300, 69%, 71%);
+    text-decoration: none;
+    color: white;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: right;
+}
+
+.social-media-icon{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: white;
+    background-color: hsl(257, 40%, 49%);
+}
+
+button.social-media-icon.facebook {
+    padding: 10px 13px;
+}
+
+button.social-media-icon.instagram {
+    padding: 8px 11px;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    padding-top: 5px;
+}
+
+.attribution a { 
+    color: white; /*hsl(228, 45%, 44%)*/ 
+}
+
+
+@media (max-width: 700px){
+
+    body{
+        text-align: center;
+        margin: 50px 50px 10px;
+        font-size: 14px;
+    }
+
+    .logo{
+        width: 40%;
+    }
+    
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-content:center;
+    }
+
+    .written-part{
+        margin-left: 0px;
+    }
+
+    .description{
+        margin: 0px 20px;
+        font-weight: 400;
+    }
+
+    img.tablet-pic {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .btn-container{
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .btn {
+        font-size: 13px;
+        font-weight: 400;
+        padding: 10px 65px 10px 65px;
+        margin-top: 30px;
+    }
+}
+
