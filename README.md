@@ -10,7 +10,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Links
-- Live Site URL: [https://github.com/Rhythm001/Huddle-Landing-Page-Challenge.git]
+- Live Site URL: [https://rhythm001.github.io/Huddle-Landing-Page-Challenge/]
 
 ### Built with
 
